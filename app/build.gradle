@@ -1,0 +1,48 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        debug {
+            keyAlias 'debug'
+            keyPassword '51bZJ14za4UR'
+            storeFile file('../debug.jks')
+            storePassword '51bZJ14za4UR'
+        }
+    }
+
+    compileSdkVersion 23
+    buildToolsVersion '24.0.0-rc1'
+
+    defaultConfig {
+        applicationId "net.mononz.lastepisode"
+        minSdkVersion 16
+        targetSdkVersion 23
+        versionCode 6
+        versionName "1.0.5"
+    }
+
+    buildTypes {
+        debug {
+            debuggable true
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        release {
+            debuggable false
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile 'com.google.android.gms:play-services-analytics:8.4.0'
+    compile 'com.readystatesoftware.sqliteasset:sqliteassethelper:2.0.1'
+    compile 'com.android.support:appcompat-v7:23.2.1'
+    compile 'com.jakewharton:butterknife:7.0.1'
+    compile 'com.android.support:support-v4:23.2.1'
+    compile 'com.android.support:recyclerview-v7:23.2.1'
+    compile 'com.android.support:design:23.2.1'
+}
+
+apply plugin: 'com.google.gms.google-services'

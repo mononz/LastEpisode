@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="preference_reset">pref_reset</string>
+    <string name="preference_email">pref_email</string>
+</resources>

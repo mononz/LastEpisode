@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Last Episode</string>
+    <string name="play_store">https://play.google.com/store/apps/details?id=net.mononz.lastepisode</string>
+    <string name="content_authority" translatable="false">net.mononz.lastepisode</string>
+
+    <string name="icon">icon</string>
+
+    <string name="analytics">Analytics</string>
+
+    <string name="menu_delete">Delete</string>
+
+    <string name="alert_proceed">Proceed</string>
+    <string name="alert_cancel">Cancel</string>
+
+    <string name="toast_show_name">Please enter a show name!</string>
+    <string name="now_tracking">Now tracking</string>
+    <string name="updated">Updated</string>
+    <string name="deleted">Deleted</string>
+    <string name="reset_database">Database has been reset</string>
+
+    <string name="error_insert">Oh no! Insert error</string>
+    <string name="error_update">Oh no! Update error</string>
+
+    <string name="show_name">Show Name</string>
+    <string name="season_short">S</string>
+    <string name="season">Season</string>
+    <string name="episode_short">E</string>
+    <string name="episode">Episode</string>
+    <string name="season_break">Season Break</string>
+    <string name="base">01</string>
+    <string name="last_updated">Last Updated At</string>
+
+    <string name="title_settings">Settings</string>
+    <string name="pref_reset">Reset all data</string>
+    <string name="pref_sum_reset">Clear database and reset to defaults</string>
+    <string name="pref_sum_reset_dialog">Are you sure?</string>
+    <string name="title_support">Support</string>
+    <string name="pref_rate">Play Store</string>
+    <string name="pref_sum_rate">Like this free app? Your 5-star rating and Google +1\'s always motivate me to do more</string>
+    <string name="pref_contact">Contact / Report Bug</string>
+    <string name="pref_email">Email</string>
+    <string name="pref_sum_email">apps@mononz.com</string>
+    <string name="pref_twitter">Twitter</string>
+    <string name="pref_sum_twitter">\@mononzz</string>
+    <string name="pref_twitter_url">https://twitter.com/mononzz</string>
+
+    <string name="settings_email_choose">Choose an Email client :</string>
+
+</resources>

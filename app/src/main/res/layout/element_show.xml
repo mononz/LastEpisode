@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/card_view"
+    android:padding="16dp"
+    android:orientation="horizontal"
+    android:foreground="?android:attr/selectableItemBackground" >
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        tools:text="The Flash"
+        android:singleLine="true"
+        style="@style/text_general_medium" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/season_short"
+        style="@style/text_general_italics" />
+
+    <TextView
+        android:id="@+id/season"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/base"
+        style="@style/text_general_italics" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/episode_short"
+        style="@style/text_general_italics" />
+
+    <TextView
+        android:id="@+id/episode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/base"
+        style="@style/text_general_italics" />
+
+</LinearLayout>
